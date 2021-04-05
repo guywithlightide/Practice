@@ -1,0 +1,14 @@
+java.lang.ArrayIndexOutOfBoundsException
+	at com.practice.main.MainClass.main(MainClass.java:19)
+java.lang.ArrayIndexOutOfBoundsException
+	at com.practice.main.MainClass.main(MainClass.java:19)
+java.lang.ArrayIndexOutOfBoundsException
+	at com.practice.main.MainClass.main(MainClass.java:19)
+java.lang.ArrayIndexOutOfBoundsException
+	at com.practice.main.MainClass.main(MainClass.java:19)
+java.lang.ArrayIndexOutOfBoundsException
+	at com.practice.main.MainClass.main(MainClass.java:19)
+java.lang.ArrayIndexOutOfBoundsException
+	at com.practice.main.MainClass.main(MainClass.java:19)
+java.lang.ArrayIndexOutOfBoundsException
+	at com.practice.main.MainClass.main(MainClass.java:19)
