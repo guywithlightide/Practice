@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -18,6 +19,9 @@ public class Main {
 		int total = 0;
 		int number = arr[0];
 		boolean largest = true;
+		boolean elementsNeeded = true;
+		int [] elements = new int[k];
+		int z=0;
 		for(int num : numVFreq.keySet())
 		{
 			total+=numVFreq.get(num);
@@ -25,15 +29,22 @@ public class Main {
 			if(!largest)
 			{
 				if(total>=k)
+				{
 					break;				
+				}
 			}
 			else
 			{
 				if(total >= arr.length-k+1)
+				{
 					break;
+				}
 			}
+			if(elementsNeeded)
+				elements[z++] = number;
 		}
 		System.out.println(k+(largest?" largest":" smallest")+" element is "+number);
+		System.out.println(Arrays.toString(elements));
 	}
 
 }
